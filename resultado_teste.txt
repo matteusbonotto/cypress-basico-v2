@@ -1,0 +1,117 @@
+
+> curso-cypress-v2@1.0.0 test
+> cypress run
+
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        9.5.1                                                                          │
+  │ Browser:        Electron 94 (headless)                                                         │
+  │ Node Version:   v20.1.0 (C:\Program Files\nodejs\node.exe)                                     │
+  │ Specs:          2 found (CAT-TAT.spec.js, privacy.spec.js)                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  CAT-TAT.spec.js                                                                 (1 of 2)
+
+
+  Central de Atendimento ao Cliente TAT
+    √ verifica o título da aplicação (181ms)
+    √ Preenche os campos obrigatórios e envia o formulario (1706ms)
+    √ Exibe mensagem de erro ao submeter o formulário com um email com formatação inválida (1312ms)
+    √ Verifica o campo telefone só aceita numeros (343ms)
+    √ Verificar se exibe mensagem de erro quando o telefone se torna obrigatório mas não é preenchido antes do envio do formulário (522ms)
+    √ preenche e limpa os campos nome, sobrenome, email e telefone (2718ms)
+    √ exibe mensagem de erro ao submeter o formulário sem preencher os campos obrigatórios (241ms)
+    √ envia o formuário com sucesso usando um comando customizado (1411ms)
+    √ seleciona um produtoo (Youtube) por texto (259ms)
+    √ seleciona um produtoo (Mentoria) por value (246ms)
+    √ seleciona um produtoo (Blog) por index (290ms)
+    √ marca tipo de atendimento "feedback" (175ms)
+    √ marca cada tipo de atendimento" (277ms)
+    √ seleciona um produtoo (Blog) por index (420ms)
+    √ marca cada tipo de atendimento (727ms)
+    √ marca ambos checkboxes, depois desmarcar o ultimo (395ms)
+    √ Seleciona um arquivo da pasta fixture (137ms)
+    √ Seleciona um arquivo simulando um drag and drop (133ms)
+    √ Seleciona um arquivo utilizando uma fixture para a qual foi dada um alias (145ms)
+    √ Verifique se a politica de privacidade abre em outra aba sem a necessidade de um clique (86ms)
+    √ acessa a politica de privacidade removendo o atributo target e então clicando no link (203ms)
+
+
+  21 passing (12s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        21                                                                               │
+  │ Passing:      21                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     12 seconds                                                                       │
+  │ Spec Ran:     CAT-TAT.spec.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: C:\Users\Matheus Bonotto\Documents\Github\cypress-basico-v2    (2 seconds)
+                          \cypress\videos\CAT-TAT.spec.js.mp4                                       
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  privacy.spec.js                                                                 (2 of 2)
+
+
+  √ testa a página da politica de privacidade de forma independente (154ms)
+
+  1 passing (189ms)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     privacy.spec.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: C:\Users\Matheus Bonotto\Documents\Github\cypress-basico-v2    (0 seconds)
+                          \cypress\videos\privacy.spec.js.mp4                                       
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ √  CAT-TAT.spec.js                          00:12       21       21        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ √  privacy.spec.js                          184ms        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    √  All specs passed!                        00:12       22       22        -        -        -  
+
